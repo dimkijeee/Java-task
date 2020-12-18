@@ -10,7 +10,7 @@ public class Program{
         bob.display();
     }
 }
-// класс человека
+
 class Person {
      
     private String name;
@@ -27,7 +27,7 @@ class Person {
         System.out.printf("Person %s \n", name);
     }
 }
-// служащий некоторой компании 
+
 class Employee extends Person{
  
     private String company;
@@ -44,7 +44,7 @@ class Employee extends Person{
         System.out.printf("Employee %s works in %s \n", super.getName(), company);
     }
 }
-// класс клиента банка
+
 class Client extends Person{
        
     private int sum; // Переменная для хранения суммы на счете
