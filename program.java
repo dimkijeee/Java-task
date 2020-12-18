@@ -47,7 +47,7 @@ class Employee extends Person{
 
 class Client extends Person{
        
-    private int sum; // Переменная для хранения суммы на счете
+    private int sum;
     private String bank;
        
     public Client(String name, String bank, int sum) {
